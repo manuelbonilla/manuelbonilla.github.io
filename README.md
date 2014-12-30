@@ -1,3 +1,3 @@
-## Manuelbonilla.Github.com
+## manuel-bonilla.com 
 
-This is just a test for centro piaggio blog and sharing files server
+This repo includes my http://manuel-bonilla.com domain hosted by gh-pages
