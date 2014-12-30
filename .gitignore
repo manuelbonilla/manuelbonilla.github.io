@@ -26,3 +26,9 @@
 *.exe
 *.out
 *.app
+
+# Linux temp files
+*~
+
+# Siblume-Text editor files
+*.subl
