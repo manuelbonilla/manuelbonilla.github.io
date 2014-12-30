@@ -4,7 +4,7 @@ title: "Manuel Bonilla"
 ---
 {% for post in site.posts offset: 0 limit: 50 %}
 <div class="row">
-  <div class="span7">    
+  <div class="span7">
     <div class="row">
       <div class="span2">
         <a href="{{ post.url }}" >
@@ -12,19 +12,18 @@ title: "Manuel Bonilla"
         </a>
       </div>
       <div class="span5">
-		<h4><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></h4>      
+		<h4><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></h4>
         <p>
           {{ post.summary }}
         </p>
 		<p>
           <i class="icon-calendar"></i> {{ post.date | date: "%B %e, %Y" }}
-          | <i class="icon-comment"></i> <a href="http://manuelbonilla.github.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a> 	            
+          | <i class="icon-comment"></i> <a href="http://manuel-bonilla.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a> 	            
         </p>
         <p><a href="{{ post.url }}">Read more</a></p>
       </div>
-    </div>    
+    </div>
 	<hr>
   </div>
 </div>
-{% endfor %}	
-			
+{% endfor %}
