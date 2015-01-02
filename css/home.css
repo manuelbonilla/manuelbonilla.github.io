@@ -19,7 +19,7 @@ a:visited {
 }
 
 a:hover {
-    color: #94A3B4;
+    color: #C3B091;
     text-decoration:underline;
 }
 
@@ -45,15 +45,54 @@ h2 {
     text-align: center;
 }
 
-.roundedImage {
-    clear: both;
-    width: 400px;
-    height: 400px;
-    border-radius:50% 50% 50% 50%; 
-    text-align: center;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    margin:auto;
+/*#mainContainer{ width: 100%; text-align:center;}*/
+
+#divCircle {
+    margin-left:auto; 
+    margin-right:auto; 
+    width: 500px;
+    height: 500px;  
+    position: relative;
+
+}
+
+#divCircle img{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+}
+
+#middleBubble {
+  text-align:center;
+  vertical-align:top;
+  background: url(/img/manuelb.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:50%;       
+  width: 50%;   
+  margin: auto;
+  position: absolute;
+  text-align:center;
+  border-radius:50% 50% 50% 50%; 
+}
+
+#middleBubbletext {
+  text-align:center;
+  vertical-align:top;
+  color: #C3B091; /*#6d6e71*/
+  font-size: 2em;
+  height:50%;       
+  width: 50%;   
+  margin: auto;
+  position: absolute;
+  text-align:center;
+  border-radius:50% 50% 50% 50%; 
+}
+
+#middleBubble b{
+    font-size: 1.2em;
+}
+
+#middleBubble p{
+    margin: 2em;
 }
