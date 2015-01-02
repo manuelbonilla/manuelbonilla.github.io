@@ -1,0 +1,54 @@
+body {
+
+    background-color: #45505D;
+
+}
+
+a {
+
+    color: var(--textcolor);
+    text-decoration:none;
+
+}
+
+
+a:link {
+
+    color: #94A3B4;
+    text-decoration:none;
+
+}
+
+
+a:visited {
+
+    color: #94A3B4;
+    text-decoration:underline;
+
+}
+
+a:hover {
+
+    color: #94A3B4;
+    text-decoration:underline;
+
+}
+
+p {
+
+    text-decoration:none;
+}
+
+h1 {
+
+    color: #94A3B4;
+    margin-bottom:.8em;
+    line-height: 1.4em;
+    
+}
+
+.home_page {
+
+    text-align: center
+
+}
