@@ -27,9 +27,8 @@ $(document).ready(function(){
             
             //set the highlight and bubble default based on the homepageGridDefault class
             currentGridSelector = "";
-            // $("#" + currentGridSelector).attr("src", "img/home-" + currentGridSelector + "-icon-on.png");
-            // $("#middleBubble").html("<p><b>" + $(".homepageGridDefault").data("bubble1") + "</b><br />" + $(".homepageGridDefault").data("bubble2") + "</p>");
-            
+            $("#Bubbletext").html("<p>" + " " + "</p>");
+
             //Setup the grid to change the highlighted bubble on mouseover ans click
             $("#divCircle img").mouseover(function(){
                 //if the selected option has changed, deactivate the current selection
@@ -42,5 +41,11 @@ $(document).ready(function(){
                 //set the content of the center bubble
                 $("#Bubbletext").html("<p>" + $(this).data("bubble1")  + "</p>");
                 currentGridSelector = $(this).attr("id");
+            });
+
+            $("#divCircle img").mouseleave(function(){
+                $("#Bubbletext").html("<p>" + " " + "</p>");
+                $(this).attr("src", "/img/home-" + $(this).attr("id") + "-icon-off.png");
+                currentGridSelector = "";
             });
         });
