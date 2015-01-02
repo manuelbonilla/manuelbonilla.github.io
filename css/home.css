@@ -1,5 +1,6 @@
 body {
     background-color: #45505D;
+        text-align: center;
 }
 
 a {
@@ -32,6 +33,7 @@ h1 {
     font-size: 250%;
     margin-bottom:.8em;
     line-height: 1.4em;
+
 }
 
 h2 {
@@ -40,11 +42,11 @@ h2 {
 }
 
 
-.home_page {
+/*.home_page {
     display:inline;
     text-align: center;
 }
-
+*/
 /*#mainContainer{ width: 100%; text-align:center;}*/
 
 #divCircle {
@@ -62,6 +64,8 @@ h2 {
     height: 15%;
 }
 
+
+
 #middleBubble {
   text-align:center;
   vertical-align:top;
@@ -76,17 +80,14 @@ h2 {
   border-radius:50% 50% 50% 50%; 
 }
 
-#middleBubbletext {
+#Bubbletext {
   text-align:center;
-  vertical-align:top;
-  color: #C3B091; /*#6d6e71*/
+  /*margin: auto;*/
+   color: #C3B091    ; 
   font-size: 2em;
   height:50%;       
   width: 50%;   
-  margin: auto;
-  position: absolute;
-  text-align:center;
-  border-radius:50% 50% 50% 50%; 
+
 }
 
 #middleBubble b{

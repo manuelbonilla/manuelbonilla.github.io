@@ -35,12 +35,12 @@ $(document).ready(function(){
                 //if the selected option has changed, deactivate the current selection
                 if(currentGridSelector != $(this).attr("id"))
                 {
-                    $("#" + currentGridSelector).attr("src", "img/home-" + currentGridSelector + "-icon-off.png");
+                    $("#" + currentGridSelector).attr("src", "/img/home-" + currentGridSelector + "-icon-off.png");
                 }
                 //turn on the new selection
-                $(this).attr("src", "img/home-" + $(this).attr("id") + "-icon-on.png");
+                $(this).attr("src", "/img/home-" + $(this).attr("id") + "-icon-on.png");
                 //set the content of the center bubble
-                $("#middleBubbletext").html("<p><b>" + $(this).data("bubble1") + "</b><br />" + "</p>");
+                $("#Bubbletext").html("<p>" + $(this).data("bubble1")  + "</p>");
                 currentGridSelector = $(this).attr("id");
             });
         });
