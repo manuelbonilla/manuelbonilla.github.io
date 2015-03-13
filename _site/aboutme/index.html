@@ -4,76 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/img/mb.ico" />
-    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" media="screen" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/circle.css">
+    <link rel="stylesheet" href="/css/social.css">
     <title> | MB-AboutMe</title>
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="/js/imgcircle.js"></script>
+    <script src="/js/circlemb.js"></script>
     <script src="/js/social.js"></script>
 
 </head>
 
 <body>
 
-    <h1>Manuel Bonilla</h1>
+    <div class="span4 affix">
 
-    <div id="divCircle">
-        <a href="/">
-            <div id="middleBubble">&nbsp;</div>
-        </a>
-        <a href="/socialmedia/">
-            <img src="/img/home-socialmedia-icon-off.png" id="socialmedia"  data-bubble1="Social Media">
-        </a>
-        <a href="/contact/">
-            <img src="/img/home-email-icon-off.png" id="email" data-bubble1="Contact" >
-        </a>
-        <img src="/img/home-blog-icon-off.png" id="blog" data-bubble1="Blog" >
-        <a href="/aboutme/">
-            <img src="/img/home-about-icon-off.png" id="about" data-bubble1="About me" >
-        </a>
-        <a href="/">
-            <img src="/img/home-home-icon-off.png" id="home" data-bubble1="Home" >
-        </a>
-        <div id="Bubbletext"></div>
+        <h2>Manuel Bonilla</h2>
+
+        <div id="CircleMB" style="width: 300px; height: 300px">
+            <a href="/">
+                <div id="MiddleBubble" style="background: url(/img/manuelb.jpeg); background-size: cover">&nbsp;</div>
+            </a>
+            <a href="/socialmedia/">
+                <img src="/img/socialmedia-icon-off.png" id="socialmedia"  data-bubble1="Social Media">
+            </a>
+            <a href="/contact/">
+                <img src="/img/email_home-icon-off.png" id="email_home" data-bubble1="Contact" >
+            </a>
+            <img src="/img/blog_home-icon-off.png" id="blog_home" data-bubble1="Blog" >
+            <a href="/aboutme/">
+                <img src="/img/about-icon-off.png" id="about" data-bubble1="About me" >
+            </a>
+            <a href="/">
+                <img src="/img/home-icon-off.png" id="home" data-bubble1="Home" >
+            </a>
+            <div id="BubbleText"></div>
+        </div>
     </div>
 
-     <div id="section">
-	<hr>
+
+    
+    <div class="offset4">
+
+
+         <div class="section">
   <h2>Professional</h2>
   <p>
-  I graduated from <a href="http://www.upa.edu.mx/">Polytechnic University of Aguascalientes</a> with a B.Eng. in Mechatronics and I received the M.S. in Robotics and Advanced Manufacturing from CINVESTAV under the supervision of the professors <a href="http://scholar.google.com/citations?user=RRm-R20AAAAJ">Vicente Parra</a> and <a href="https://www.linkedin.com/pub/francisco-j-ruiz-s%C3%A1nchez/23/890/216">Fransico Ruiz</a>, both in <a href=http://www.visitmexico.com/>Mexico</a>. Since 2012 I'm with the Robotics and Automation group of <a href="http://www.centropiaggio.unipi.it/">Research Center E Piaggio</a> of the <a href="http://www2.ing.unipi.it/scuola_dottorato_ingegneria/">Engineering School Leonardo da Vinci </a> at <a href="http://www.unipi.it/">University of Pisa </a> where I'm currently working toward the Ph.D degree. My Advisor is the professor <a href="http://www.centropiaggio.unipi.it/~bicchi">Antonio Bicchi</a> and my main research topic is constrained motion planning and execution for soft robots.<br>
-  Before starting my master studies I was working first as a Technical Support Engineer in <a href="http://www.trucka.com.mx/#">Trucka</a>, and then in <a href="http://www.gpelectromecanica.com.mx/"> Gp Electromecanica</a>  as an Automation Engineer. Once I got my M.S. degree I worked for the technology center of <a href="http://www.whirlpoolcorp.com">Whirlpool Corporation</a> as Engineer analyst, my job was to perform Multibody Dinamics Simulations. After these industrial experience I decided to follow one of my dreams and try to become a Ph.D. I'm in the way.
+  I graduated from <a href="http://www.upa.edu.mx/">Polytechnic University of Aguascalientes</a> with a B.Eng. in Mechatronics. I received the M.S. in Robotics and Advanced Manufacturing from CINVESTAV under the supervision of the professors <a href="http://scholar.google.com/citations?user=RRm-R20AAAAJ">Vicente Parra</a> and <a href="https://www.linkedin.com/pub/francisco-j-ruiz-s%C3%A1nchez/23/890/216">Fransico Ruiz</a>. Since 2012 I am with the Robotics and Automation group of <a href="http://www.centropiaggio.unipi.it/">Research Center E Piaggio</a> of the <a href="http://www2.ing.unipi.it/scuola_dottorato_ingegneria/">Engineering School Leonardo da Vinci </a> at <a href="http://www.unipi.it/">University of Pisa </a> where I am currently working toward the Ph.D degree. My Advisor is the professor <a href="http://www.centropiaggio.unipi.it/~bicchi">Antonio Bicchi</a> and my main research topic is constrained motion planning and execution for soft robots.<br>
+  Before starting my master studies I was working first as a Technical Support Engineer in <a href="http://www.trucka.com.mx/#">Trucka</a>, and then in <a href="http://www.gpelectromecanica.com.mx/"> Gp Electromecanica</a>  as an Automation Engineer. Once I got my M.S. degree I worked for the technology center of <a href="http://www.whirlpoolcorp.com">Whirlpool Corporation</a> as Engineer analyst, my job was to perform Multibody Dinamic Simulations. After these experience on industry I decided to follow one of my dreams and try to become a Ph.D. I am in the way.
   </p>
+   </div>
+
+<div class="section">
 <h2>Publications</h2>
 
 
 <ul class="publications">
-	<li><b>M. Bonilla</b>, Farnioli, E., Piazza, C., Catalano, M. G., Grioli, G., Garabini, M., Gabiccini, M., and Bicchi, A., <i>Grasping with Soft Hands </i>, in International Conference on Humanoid Robots IEEE-RAS 2014, Madrid, Spain, November 18 - 20, In Press. 
-	<a href="http://www.centropiaggio.unipi.it/sites/default/files/2014_BFPCGGGB_HUMANOIDS.pdf"><img class="pdf" src="/img/pdf_icon_tiny.gif" alt="pdf"></a>
+
+
+	<li><b>M. Bonilla</b>, E. Farnioli, L. Pallottino and A. Bicchi. <i>Sample-Based Motion Planning for Robot Manipulators with Closed Kinematic Chains</i>, in 2015 IEEE International Conference on Robotics and Automation, Seattle, USA, May 26 - 31, Accepted for Publication. 
+	<a href="http://www.centropiaggio.unipi.it/sites/default/files/bfpb_icra15.pdf"><img class="pdf" src="/img/pdf_icon_tiny.gif" alt="pdf"></a>
 	</li>
 	
-	<li>Narunas Vaskevicius, Christian Atanas Mueller, <b>Manuel Bonilla</b>, Vinicio Tincani, Todor Stoyanov, Gualtiero Fantoni, Kaustubh Pathak, Achim J. Lilienthal, Antonio Bicchi, Andreas Birk. <i>Object Recognition and Localization for Robust Grasping with a Dexterous Gripper in the Context of Container Unloading</i>. 2014 IEEE International Conference on Automation Science and Engineering. 
+	<li><b>M. Bonilla</b>, E. Farnioli, M. G. Catalano, G. Grioli, M. Garabini, M. Gabiccini and A. Bicchi. <i>Grasping with Soft Hands</i>, in IEEE-RAS 2014 International Conference on Humanoid Robots, Madrid, Spain, November 18 - 20, In Press. 
+	<a href="http://www.centropiaggio.unipi.it/sites/default/files/2014_BFPCGGGB_HUMANOIDS.pdf"><img class="pdf" src="/img/pdf_icon_tiny.gif" alt="pdf"></a>
+	</li>
+
+	<li>N. Vaskevicius, C. Atanas, <b>M. Bonilla</b>, V. Tincani, T. Stoyanov, G. Fantoni, K. Pathak, A. J. Lilienthal, A. Bicchi and A. Birk. <i>Object Recognition and Localization for Robust Grasping with a Dexterous Gripper in the Context of Container Unloading</i>. 2014 IEEE International Conference on Automation Science and Engineering. 
 	<a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6899490&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6899490"><img class="pdf" src="/img/pdf_icon_tiny.gif" alt="pdf"></a>
 	</li>
-	<li>R. Krug, Stoyanov, T., <b>Bonilla, M.</b>, Tincani, V., Vaskeviciusz, N., Fantoni, G., Birkz, A., Lilienthal, A., and Bicchi, A., <i>Velvet Fingers: Grasp Planning and Execution for an Underactuated Gripper with Active Surfaces</i>, in 2014 IEEE International Conference on Robotics and Automation, Hong Kong, May 31 2014-June 7 2014, 2014 
+
+	<li>R. Krug, T. Stoyanov, <b>M. Bonilla</b>,V. Tincani, N. Vaskeviciusz, G. Fantoni, A. Birkz, A. Lilienthal and A. Bicchi. <i>Velvet Fingers: Grasp Planning and Execution for an Underactuated Gripper with Active Surfaces</i>, in 2014 IEEE International Conference on Robotics and Automation, Hong Kong, May 31 2014-June 7 2014, 2014 
 	<a href="http://www.centropiaggio.unipi.it/sites/default/files/2014_KSBTVFBLB_ICRA.pdf"><img class="pdf" src="/img/pdf_icon_tiny.gif" alt="pdf"></a>
 	</li>
-	<li>V. Tincani, Grioli, G., Catalano, M. G., <b>Bonilla, M.</b>, Garabini, M., Fantoni, G., and Bicchi, A., <i>Controlling the active surfaces of the Velvet Fingers: sticky to slippy fingers</i>, in IEEE/RSJ International Conference on Intelligent Robots and Systems, IROS 2013, Tokyo, Japan, 2013, pp. 5494 - 5499  
+
+	<li>V. Tincani, G. Grioli, M. G. Catalano, <b>M. Bonilla</b>, M. Garabini, G. Fantoni and A. Bicchi. <i>Controlling the active surfaces of the Velvet Fingers: sticky to slippy fingers</i>, in IEEE/RSJ International Conference on Intelligent Robots and Systems, IROS 2013, Tokyo, Japan, 2013, pp. 5494 - 5499  
 	<a href="http://www.centropiaggio.unipi.it/sites/default/files/2013_TGCBFB_IROS.pdf"><img class="pdf" src="/img/pdf_icon_tiny.gif" alt="pdf"></a>
 	</li>
-	<li>E. Farnioli, Gabiccini, <b>M., Bonilla</b>, M., and Bicchi, A., <i>Grasp Compliance Regulation in Synergistically Controlled Robotic Hands with VSA</i>, in IEEE/RSJ International Conference on Intelligent Robots and Systems, IROS 2013, Tokyo, Japan, 2013, pp. 3015 -3022 
+
+	<li>E. Farnioli, M. Gabiccini, <b>M. Bonilla</b> and A. Bicchi. <i>Grasp Compliance Regulation in Synergistically Controlled Robotic Hands with VSA</i>, in IEEE/RSJ International Conference on Intelligent Robots and Systems, IROS 2013, Tokyo, Japan, 2013, pp. 3015 -3022 
 	<a href="http://www.centropiaggio.unipi.it/sites/default/files/2013_FGBB_IROS.pdf"><img class="pdf" src="/img/pdf_icon_tiny.gif" alt="pdf"></a>
 	</li>
+
 	<li><b>M. Bonilla</b>, V. Parra-Vega, F. J. Ruiz-Sanchez. <i>H^2IL Co-simulation of Cooperative Robots based on ADAMS, MATLAB and a haptic interface</i>, National Congress of the Automatic Control Mexican Association, celebrated on Puerto Vallarta, Jalisco. México, October 2010 
 	<a href="/papers/amca2010_paper.pdf"><img class="pdf" src="/img/pdf_icon_tiny.gif" alt="pdf"></a>
 	</li>
 </ul>
 
 
+</div>
 
+<div class="section">
 <h2>Projects</h2>
 
+ <p>Some of the projects I've worked on are:</p>
 <ul class="publications">
- <p> Some of the projects I've worked on are:</p>
  <li><a href="http://www.pacman-project.eu/">Pacman</a>
  <li><a href="http://www.walk-man.eu/">Walkman</a>
  <li><a href="http://www.roblog.eu/">Roblog</a>
@@ -83,28 +108,31 @@
 </ul>
 
 
- </div>
+</div>
 
-<div id="section">
-	<hr>
+
+<div class="section">
   <h2>Personal</h2>
   
   <p>
-  My full name is José Manuel Bonilla Jiménez, I was born in <a href="http://www.visitmexico.com/en/aguascalientes">Aguascalientes </a>,<a href=http://www.visitmexico.com/>Mexico</a> in 1985. I'm married with Vanessa Sánchez and have three children: Vanessa (AKA vane) is 10 years old, Paulette (AKA Pau) is 8 years old and Manuel (AKA Manuelito) is 2 years old.<br>
-  I grew up in <a href="http://www.visitmexico.com/en/aguascalientes">Aguascalientes </a>, in 2011 I moved to <a href="http://www.visitmexico.com/en/coahuila">Saltillo</a> to continue my studies and 2 years later to <a href=http:"//www.visitmexico.com/en/nuevo-leon">Monterrey </a> to work. Now I'm living in Pisa where I'm currently pursuing a PhD in Robotics.
+  My full name is José Manuel Bonilla Jiménez, I was born in <a href="http://www.visitmexico.com/en/aguascalientes">Aguascalientes</a>, <a href=http://www.visitmexico.com/>Mexico</a> in 1985. I am married to Vanessa Sánchez whom I have three children with: Vanessa is 10 years old, Paulette is 8 years old and Manuel is 2 years old.<br>
+  I grew up in <a href="http://www.visitmexico.com/en/aguascalientes">Aguascalientes</a>, in 2011 I moved to <a href="http://www.visitmexico.com/en/coahuila">Saltillo</a> to continue my studies and 2 years later to <a href=http:"//www.visitmexico.com/en/nuevo-leon">Monterrey </a> to work. Now I am living in Pisa where I'm currently pursuing a PhD in Robotics.
   </p>
+
+
+   </div>
+<div class="section">
+
   <h2>Hobbies</h2>
   <p>
   I like dancing, I love Mexican regional music, tequila and spicy food. I like playing soccer, I support the best soccer team in <a href=http://www.visitmexico.com/>Mexico</a> which is the <a href="http://www.clubamerica.com.mx/">Club America</a>.<br>  
-  When I have some free time from work and family I like reading mainly science fiction. I also like traveling. 
-</p>
+  When I have some free time from work and family I like reading. I also like traveling. 
+  </p>
 
  </div>
 
 
-
-
-
+    </div>
 
 
 </body>

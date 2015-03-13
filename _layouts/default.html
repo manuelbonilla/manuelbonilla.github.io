@@ -1,8 +1,57 @@
-{% include head.html %}
-{% include header.html %}
-<div class="wrapper">
-    {{ content }}
-</div>
-<!-- {% include footer.html %} -->
-<!-- {% include scripts.html %} -->
-{% include foot.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/img/mb.ico" />
+    <link rel="stylesheet" media="screen" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/circle.css">
+    <link rel="stylesheet" href="/css/social.css">
+    <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="/js/circlemb.js"></script>
+    <script src="/js/social.js"></script>
+
+</head>
+
+<body>
+
+    <div class="span4 affix">
+
+        <h2>Manuel Bonilla</h2>
+
+        <div id="CircleMB" style="width: 300px; height: 300px">
+            <a href="/">
+                <div id="MiddleBubble" style="background: url(/img/manuelb.jpeg); background-size: cover">&nbsp;</div>
+            </a>
+            <a href="/socialmedia/">
+                <img src="/img/socialmedia-icon-off.png" id="socialmedia"  data-bubble1="Social Media">
+            </a>
+            <a href="/contact/">
+                <img src="/img/email_home-icon-off.png" id="email_home" data-bubble1="Contact" >
+            </a>
+            <img src="/img/blog_home-icon-off.png" id="blog_home" data-bubble1="Blog" >
+            <a href="/aboutme/">
+                <img src="/img/about-icon-off.png" id="about" data-bubble1="About me" >
+            </a>
+            <a href="/">
+                <img src="/img/home-icon-off.png" id="home" data-bubble1="Home" >
+            </a>
+            <div id="BubbleText"></div>
+        </div>
+    </div>
+
+
+    
+    <div class="offset4">
+
+
+        {{ content }}
+
+    </div>
+
+
+</body>
+
+</html>
