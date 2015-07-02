@@ -31,6 +31,6 @@
 *~
 
 # Siblume-Text editor files
-*.subl
+*.subl*
 
 _site
